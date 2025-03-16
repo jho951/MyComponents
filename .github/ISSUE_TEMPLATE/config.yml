@@ -1,9 +1,25 @@
 templates:
-  - name: "버그 보고서"
-    about: "버그를 신고하세요."
-    labels: ["bug"]
-    file: "bug_report.md"
-  - name: "기능 요청"
-    about: "새로운 기능을 제안하세요."
-    labels: ["enhancement"]
-    file: "feature_request.md"
+  - name: "버그 보고"
+    about: "버그 발생"
+    labels: "BUG"
+    file: "버그.md"
+
+  - name: "기능 개발"
+    about: "신규/추가 기능 개발"
+    labels: "FEAT"
+    file: "기능-개발.md"
+
+  - name: "문서 수정"
+    about: "문서 수정"
+    labels: "DOCS"
+    file: "문서-수정.md"
+
+  - name: "리팩토링"
+    about: "코드 리팩토링"
+    labels: "REFACTOR"
+    file: "리팩토링.md"
+
+  - name: "오류 수정"
+    about: "오류 수정"
+    labels: "FIX"
+    file: "수정.md"
