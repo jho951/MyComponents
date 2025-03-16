@@ -1,0 +1,9 @@
+templates:
+  - name: "버그 보고서"
+    about: "버그를 신고하세요."
+    labels: ["bug"]
+    file: "bug_report.md"
+  - name: "기능 요청"
+    about: "새로운 기능을 제안하세요."
+    labels: ["enhancement"]
+    file: "feature_request.md"
